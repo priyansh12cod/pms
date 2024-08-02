@@ -1,0 +1,39 @@
+// src/pages/AdminDashboard/AdminDashboard.scss
+
+.admin-dashboard {
+    display: flex;
+  
+    &__content {
+      flex: 1;
+      padding: 20px;
+      margin-left: 250px;
+      background-color: #f4f4f4;
+  
+      h1 {
+        margin-bottom: 20px;
+        color: #333;
+      }
+  
+      .admin-dashboard__actions {
+        .btn {
+          display: inline-block;
+          padding: 10px 20px;
+          margin: 5px;
+          font-size: 1rem;
+          border-radius: 5px;
+          text-decoration: none;
+          color: #fff;
+          transition: background-color 0.3s ease-in-out;
+  
+          &.btn-primary {
+            background-color: #007bff;
+  
+            &:hover {
+              background-color: #0056b3;
+            }
+          }
+        }
+      }
+    }
+  }
+  

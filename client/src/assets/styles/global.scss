@@ -1,0 +1,46 @@
+@import 'variables';
+
+// Reset CSS (simple version)
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Global Body Styles
+body {
+    font-family: $font-primary;
+    color: $text-color;
+    background-color: $background-color;
+}
+
+// Utility Classes
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+// Links and Buttons
+a {
+    color: $primary-color;
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+button {
+    background-color: $primary-color;
+    color: #fff;
+    border: none;
+    padding: $padding;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: darken($primary-color, 10%);
+    }
+}
